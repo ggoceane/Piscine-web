@@ -1,0 +1,47 @@
+body{
+    background-color: pink;
+}
+#titre{
+    text-align: center;
+    color: white;
+}
+.photos{
+    width: 100%;
+    height: 400px;
+    /*background-color: black;*/
+}
+#ali{
+    height: 100%;
+    width: 30%;
+    /*background-color: blue;*/
+}
+#leroy{
+    height: 100%;
+    width: 30%;
+    margin-left: 410px;
+    margin-top: -400px;
+    /*background-color: blanchedalmond;*/
+}
+#photo_ali{
+    height: 90%;
+    width: 100%;
+    /*background-color: aqua;*/
+}
+#texte_ali{
+    height: 10%;
+    width: 100%;
+    /*background-color: aquamarine;*/
+}
+#baba{
+    width: 100%;
+    height: 100%;
+}
+#merlin{
+    width: 100%;
+    height: 100%;
+}
+#texte{
+    text-align: right;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
