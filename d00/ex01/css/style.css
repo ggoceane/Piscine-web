@@ -2,8 +2,15 @@
     visibility: hidden;
 }
 .tableau{
+    border: 0;
+    width: 85%;
+    height: 80%;  
+}
+.tableau.clicked {
     border: 1px solid blue;
-    
+}
+#texte{
+    text-align: center;
 }
 .element-atom{
     width: 60px;
@@ -15,8 +22,9 @@
     text-align: right;
     font-size: small;
 }
-
-
+#tableau2{
+    margin: auto;
+}
 .number{
     text-align: left;
     font-size: small;

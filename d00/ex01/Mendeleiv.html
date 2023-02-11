@@ -6,9 +6,9 @@
         <link rel="stylesheet" href="../ex01/css/style.css">
     </head>
     <body>
-        <h1>Tableau périodique des éléments de Mendeleiev</h1>
+        <h1 id="texte">Tableau périodique des éléments de Mendeleiev</h1>
         <div class="tableau">
-            <table>
+            <table id="tableau1">
                 <tr>
                     <td class="element-atom atome_vert">
                         <p class="num">1.008</p>
@@ -511,7 +511,7 @@
                 </tr>
             </table>
             <br>
-            <table>
+            <table id="tableau2">
                 <tr>
                     <td class="element-atom atome_violet_clair">
                         <p class="num">138.91</p>
@@ -658,5 +658,24 @@
                 </tr>
             </table>
         </div>
+
+        <script>
+            var table = document.getElementById("tableau1");
+            for (var i = 0; i < table.rows.length; i++) {
+              for (var j = 0; j < table.rows[i].cells.length; j++) {
+                table.rows[i].cells[j].contentEditable = true;
+              }
+            }
+            var table = document.getElementById("tableau2");
+            for (var i = 0; i < table.rows.length; i++) {
+              for (var j = 0; j < table.rows[i].cells.length; j++) {
+                table.rows[i].cells[j].contentEditable = true;
+              }
+            }
+            const maDiv = document.querySelector('.tableau');
+            maDiv.addEventListener('click', function() {
+                maDiv.classList.toggle('clicked');
+            });
+          </script>
     </body>
 </html>
