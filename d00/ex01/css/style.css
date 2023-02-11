@@ -1,0 +1,56 @@
+.hidden{
+    visibility: hidden;
+}
+.tableau{
+    border: 1px solid blue;
+    
+}
+.element-atom{
+    width: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.num{
+    text-align: right;
+    font-size: small;
+}
+
+
+.number{
+    text-align: left;
+    font-size: small;
+}
+.atome_vert{
+    background-color: #d7f872;
+}
+.atome_rouge{
+    background-color: #f24a4e;
+}
+.atome_violet_clair{
+    background-color: #f2a3f4;
+}
+.atome_violet{
+    background-color: #f27ab9;
+}
+.atome_marron{
+    background-color: #f3ce93;
+}
+.atome_rose{
+    background-color: #f2a9aa;
+}
+.atome_bleu{
+    background-color: #abf4f3;
+}
+.atome_gris{
+    background-color: #d7d7d7;
+}
+.atome_gris_fonce{
+    background-color: #b8b8b8;
+}
+.atome_vert_fonce{
+    background-color: #b9bb7f;
+}
+.atome_vert_clair{
+    background-color: #8bf8ac;
+}
