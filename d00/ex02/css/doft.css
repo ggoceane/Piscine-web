@@ -1,0 +1,135 @@
+body{
+    background-color: #505050;
+}
+.en_haut{
+    border-radius: 15px;
+    background-color:  #909090;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0);
+}
+#nom{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 5px;
+    height: 120px;
+}
+#loupe{
+    height: 120px;
+    margin-left: 770px;
+}
+#close{
+    position: absolute;
+    right: 20px;
+    height: 25px;
+    top: 100px;
+}
+#reload{
+    position: absolute;
+    right: 20px;
+    height: 25px;
+    top: 20px;
+}
+.gauche{
+    position: absolute;
+    height: 510px;
+    width: 150px;
+    left: 30px;
+    background-color: #909090;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0);
+
+}
+#arrow{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+#main{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+#oeil{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+#outil{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+#chat{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+.droit{
+    background-color: #909090;
+    border-radius: 15px;
+    position: absolute;
+    right: 30px;
+    height: 510px;
+    width: 150px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0);
+
+}
+#book{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+#towel{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+#brick{
+    background-image: url(../images/brick.jpg);
+    width: 130px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+.milieu{
+    background-color:#909090;
+    border-radius: 15px;
+    height: 620px;
+    width: 1090px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0);
+
+}
+#cluster{
+    width: 98%;
+    height: 98%;
+    display: block;
+    margin: auto;
+}
+.fin{
+    background-color: #88ff89;
+    border-radius: 15px;
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    bottom: -180px;
+    font-stretch: expanded;
+    font-weight: 300;
+}
+#mot{
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+#champ_texte{
+    width: 80%;
+}
+#ordi{
+    text-shadow: 5px 5px 5px #ff0000;
+}
